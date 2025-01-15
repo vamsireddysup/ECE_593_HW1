@@ -1,6 +1,5 @@
-# vsim -c -do "run -all; quit" ece593_alu_tb 
-# Start time: 18:32:54 on Jan 14,2025
-# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# vsim -c ece593_opt 
+# Start time: 19:08:25 on Jan 14,2025
 # //  Questa Intel Starter FPGA Edition-64
 # //  Version 2024.1 linux_x86_64 Apr 19 2024
 # //
@@ -17,7 +16,6 @@
 # //
 # Loading sv_std.std
 # Loading work.ece593_alu_tb(fast)
-# run -all
 # [0]	 rst=1	 op_sel=000	 start_op=0	 A=0	 B=0	 result=0	 end_op=0	
 # [10]	 rst=0	 op_sel=100	 start_op=1	 A=13604	 B=24193	 result=0	 end_op=0	
 # [40]	 rst=0	 op_sel=100	 start_op=1	 A=13604	 B=24193	 result=329121572	 end_op=1	
@@ -103,6 +101,5 @@
 #    Time: 400 ns  Iteration: 0  Instance: /ece593_alu_tb
 # Break at ece593_alu_tb.sv line 75
 # Stopped at ece593_alu_tb.sv line 75
-#  quit
-# End time: 18:32:54 on Jan 14,2025, Elapsed time: 0:00:00
+# End time: 19:08:53 on Jan 14,2025, Elapsed time: 0:00:28
 # Errors: 0, Warnings: 0
