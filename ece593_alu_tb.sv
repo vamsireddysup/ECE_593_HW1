@@ -19,6 +19,15 @@ ece593_alu DUT (.A(A),
 		.result(result)
 		);
 
+typedef enum bit[2:0] {no_op  = 3'b000,
+                          add_op = 3'b001, 
+                          sub_op = 3'b010,
+                          xor_op = 3'b011,
+                          mul_op = 3'b100,
+                          and_op = 3'b101,
+			  rst_op = 3'b111} op_t;
+op_t op_sel;
+
 initial begin
 	clk=0;
 	forever #5 clk=~clk;
@@ -34,15 +43,8 @@ op_sel=3'b000;
 A=16'h0000;
 B=16'h0000;
 #10;
-rst=0;
-start_op=1;
-op_sel=3'b100;
-A=16'h0010;
-B=16'h0110;
-#10;
-start_op=1;
-#50;
-$stop;
+
+
 
 end
 endmodule
