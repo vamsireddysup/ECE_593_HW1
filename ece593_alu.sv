@@ -1,10 +1,11 @@
 module ece593_alu #(parameter N = 16)(
-	input logic signed [N-1:0]A,B,
+	input logic signed [N-1:0]A,B, 
 	input logic clk,rst,start_op,
 	input logic [2:0]op_sel,
 	output logic signed [2*N-1:0]result,
 	output logic end_op
 	);
+
 	logic [2*N-1:0]temp1,temp2;
   	logic [1:0]count;
   	logic mul_status;
@@ -80,6 +81,3 @@ module ece593_alu #(parameter N = 16)(
 
 
 endmodule: ece593_alu
-
-	
-
