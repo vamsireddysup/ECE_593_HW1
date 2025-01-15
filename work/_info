@@ -1,0 +1,78 @@
+m255
+K4
+z2
+Z0 !s12c _opt
+Z1 !s99 nomlopt
+R0
+R1
+!s11f vlog 2024.1 2024.04, Apr 19 2024
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z2 d/home/vamsidhar-reddy-eraganeni/Desktop/GitHub/ECE_593_HW1
+T_opt
+!s110 1736908374
+V>G^hX6HA=8QQ6[_@60meA2
+04 13 4 work ece593_alu_tb fast 0
+=1-000ae431a4f1-67871e56-70cca-1e827
+R1
+!s12f OEM100
+!s12b OEM100
+!s124 OEM10U2 
+o-quiet -auto_acc_if_foreign -work work
+Z3 tCvgOpt 0
+n@_opt
+OL;O;2024.1;79
+vece593_alu
+2ece593_alu.sv
+Z4 DXx6 sv_std 3 std 0 22 9oUSJO;AeEaW`l:M@^WG92
+!s110 1736908365
+!i10b 1
+!s100 mSKdlBmZ;8:G=9Fa:VOT<3
+ISj0i9B6dlI@:f[78o2`=e3
+S1
+R2
+w1736907551
+8ece593_alu.sv
+Fece593_alu.sv
+!i122 2
+L0 1 94
+Z5 VDg1SIo80bB@j0V0VzS_@n1
+Z6 OL;L;2024.1;79
+r1
+!s85 0
+31
+!s108 1736908365.000000
+!s107 ece593_alu.sv|
+!s90 ece593_alu.sv|
+!i113 0
+Z7 o-L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+R3
+vece593_alu_tb
+2ece593_alu_tb.sv
+R4
+!s110 1736908369
+!i10b 1
+!s100 MF8:>g2H?QdZbX5;j>VYl1
+IEV7BK@4L[X0nzVMOYNMoC0
+S1
+R2
+w1736908358
+8ece593_alu_tb.sv
+Fece593_alu_tb.sv
+!i122 3
+L0 3 76
+R5
+R6
+r1
+!s85 0
+31
+!s108 1736908369.000000
+!s107 ece593_alu_tb.sv|
+!s90 ece593_alu_tb.sv|
+!i113 0
+R7
+R3
