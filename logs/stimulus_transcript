@@ -1,0 +1,105 @@
+# vsim -c ece593_opt 
+# Start time: 19:08:25 on Jan 14,2025
+# //  Questa Intel Starter FPGA Edition-64
+# //  Version 2024.1 linux_x86_64 Apr 19 2024
+# //
+# // Unpublished work. Copyright 2024 Siemens
+# //
+# // This material contains trade secrets or otherwise confidential information
+# // owned by Siemens Industry Software Inc. or its affiliates (collectively,
+# // "SISW"), or its licensors. Access to and use of this information is strictly
+# // limited as set forth in the Customer's applicable agreements with SISW.
+# //
+# // This material may not be copied, distributed, or otherwise disclosed outside
+# // of the Customer's facilities without the express written permission of SISW,
+# // and may not be used in any way not expressly authorized by SISW.
+# //
+# Loading sv_std.std
+# Loading work.ece593_alu_tb(fast)
+# [0]	 rst=1	 op_sel=000	 start_op=0	 A=0	 B=0	 result=0	 end_op=0	
+# [10]	 rst=0	 op_sel=100	 start_op=1	 A=13604	 B=24193	 result=0	 end_op=0	
+# [40]	 rst=0	 op_sel=100	 start_op=1	 A=13604	 B=24193	 result=329121572	 end_op=1	
+# Test passed: result = 329121572, end_op = 1
+# My Name is Vamsidhar Reddy Eraganen(Id:916643837)
+# -----------------ece593------------------------
+# [50]	 rst=0	 op_sel=110	 start_op=1	 A=-10743	 B=22115	 result=0	 end_op=1	
+# Test passed: result = 0, end_op = 1
+# My Name is Vamsidhar Reddy Eraganen(Id:916643837)
+# -----------------ece593------------------------
+# [60]	 rst=0	 op_sel=110	 start_op=1	 A=31501	 B=-26227	 result=0	 end_op=1	
+# Test passed: result = 0, end_op = 1
+# My Name is Vamsidhar Reddy Eraganen(Id:916643837)
+# -----------------ece593------------------------
+# [70]	 rst=0	 op_sel=110	 start_op=1	 A=-31643	 B=21010	 result=0	 end_op=1	
+# Test passed: result = 0, end_op = 1
+# [80]	 rst=0	 op_sel=001	 start_op=1	 A=-7423	 B=-13043	 result=-20466	 end_op=1	
+# Test passed: result = -20466, end_op = 1
+# [90]	 rst=0	 op_sel=101	 start_op=1	 A=-3722	 B=-12995	 result=-16076	 end_op=1	
+# Test passed: result = -16076, end_op = 1
+# [100]	 rst=0	 op_sel=001	 start_op=1	 A=22509	 B=-2164	 result=20345	 end_op=1	
+# Test passed: result = 20345, end_op = 1
+# [110]	 rst=0	 op_sel=001	 start_op=1	 A=-5639	 B=9414	 result=3775	 end_op=1	
+# Test passed: result = 3775, end_op = 1
+# [120]	 rst=0	 op_sel=000	 start_op=1	 A=-31547	 B=-11606	 result=0	 end_op=1	
+# Test passed: result = 0, end_op = 1
+# [130]	 rst=0	 op_sel=011	 start_op=1	 A=-2075	 B=29303	 result=-31342	 end_op=1	
+# Test passed: result = -31342, end_op = 1
+# [140]	 rst=0	 op_sel=000	 start_op=1	 A=-10734	 B=-9329	 result=0	 end_op=1	
+# Test passed: result = 0, end_op = 1
+# [150]	 rst=0	 op_sel=011	 start_op=1	 A=27122	 B=-26930	 result=-196	 end_op=1	
+# Test passed: result = -196, end_op = 1
+# [160]	 rst=0	 op_sel=010	 start_op=1	 A=31464	 B=20165	 result=11299	 end_op=1	
+# Test passed: result = 11299, end_op = 1
+# My Name is Vamsidhar Reddy Eraganen(Id:916643837)
+# -----------------ece593------------------------
+# [170]	 rst=0	 op_sel=111	 start_op=1	 A=18780	 B=10429	 result=0	 end_op=1	
+# Test passed: result = 0, end_op = 1
+# My Name is Vamsidhar Reddy Eraganen(Id:916643837)
+# -----------------ece593------------------------
+# [180]	 rst=0	 op_sel=110	 start_op=1	 A=22573	 B=9829	 result=0	 end_op=1	
+# Test passed: result = 0, end_op = 1
+# [190]	 rst=0	 op_sel=000	 start_op=1	 A=25187	 B=-30966	 result=0	 end_op=1	
+# Test passed: result = 0, end_op = 1
+# [200]	 rst=0	 op_sel=001	 start_op=1	 A=8832	 B=8480	 result=17312	 end_op=1	
+# Test passed: result = 17312, end_op = 1
+# My Name is Vamsidhar Reddy Eraganen(Id:916643837)
+# -----------------ece593------------------------
+# [210]	 rst=0	 op_sel=111	 start_op=1	 A=17834	 B=-13155	 result=0	 end_op=1	
+# Test passed: result = 0, end_op = 1
+# [220]	 rst=0	 op_sel=101	 start_op=1	 A=16022	 B=-18413	 result=14354	 end_op=1	
+# Test passed: result = 14354, end_op = 1
+# [230]	 rst=0	 op_sel=011	 start_op=1	 A=14349	 B=-10669	 result=-4514	 end_op=1	
+# Test passed: result = -4514, end_op = 1
+# [240]	 rst=0	 op_sel=001	 start_op=1	 A=-8853	 B=10965	 result=2112	 end_op=1	
+# Test passed: result = 2112, end_op = 1
+# [250]	 rst=0	 op_sel=001	 start_op=1	 A=18946	 B=16046	 result=34992	 end_op=1	
+# Test passed: result = 34992, end_op = 1
+# [260]	 rst=0	 op_sel=010	 start_op=1	 A=-5859	 B=29391	 result=-35250	 end_op=1	
+# Test passed: result = -35250, end_op = 1
+# [270]	 rst=0	 op_sel=101	 start_op=1	 A=18723	 B=25866	 result=16642	 end_op=1	
+# Test passed: result = 16642, end_op = 1
+# My Name is Vamsidhar Reddy Eraganen(Id:916643837)
+# -----------------ece593------------------------
+# [280]	 rst=0	 op_sel=111	 start_op=1	 A=2762	 B=19516	 result=0	 end_op=1	
+# Test passed: result = 0, end_op = 1
+# My Name is Vamsidhar Reddy Eraganen(Id:916643837)
+# -----------------ece593------------------------
+# [290]	 rst=0	 op_sel=111	 start_op=1	 A=-16910	 B=24970	 result=0	 end_op=1	
+# Test passed: result = 0, end_op = 1
+# [300]	 rst=0	 op_sel=100	 start_op=1	 A=-19647	 B=13528	 result=0	 end_op=0	
+# [330]	 rst=0	 op_sel=100	 start_op=1	 A=-19647	 B=13528	 result=-265784616	 end_op=1	
+# Test passed: result = -265784616, end_op = 1
+# [340]	 rst=0	 op_sel=010	 start_op=1	 A=-3208	 B=4745	 result=-7953	 end_op=1	
+# Test passed: result = -7953, end_op = 1
+# [350]	 rst=0	 op_sel=100	 start_op=1	 A=3563	 B=26038	 result=0	 end_op=0	
+# [380]	 rst=0	 op_sel=100	 start_op=1	 A=3563	 B=26038	 result=92773394	 end_op=1	
+# Test passed: result = 92773394, end_op = 1
+# [390]	 rst=0	 op_sel=001	 start_op=1	 A=-1594	 B=5038	 result=3444	 end_op=1	
+# Test passed: result = 3444, end_op = 1
+# All random tests completed.
+# ** Note: $stop    : ece593_alu_tb.sv(75)
+#    Time: 400 ns  Iteration: 0  Instance: /ece593_alu_tb
+# Break at ece593_alu_tb.sv line 75
+# Stopped at ece593_alu_tb.sv line 75
+# End time: 19:08:53 on Jan 14,2025, Elapsed time: 0:00:28
+# Errors: 0, Warnings: 0
