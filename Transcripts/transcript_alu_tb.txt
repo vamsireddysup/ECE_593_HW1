@@ -1,9 +1,0 @@
-Questa Intel Starter FPGA Edition-64 vlog 2024.1 Compiler 2024.04 Apr 19 2024
-Start time: 19:00:58 on Jan 14,2025
-vlog ece593_alu_tb.sv 
--- Compiling module ece593_alu_tb
-
-Top level modules:
-	ece593_alu_tb
-End time: 19:00:58 on Jan 14,2025, Elapsed time: 0:00:00
-Errors: 0, Warnings: 0
